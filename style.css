@@ -11,6 +11,7 @@ font-family: 'Montserrat Alternates', sans-serif;
     --primary-color: #F97316;
     --grey-color: #6B7280;
     --ow-color: #E4E4E7;
+    --card-color:#FED7AA;
 }
 
 /* *** body styling*** */
@@ -50,17 +51,18 @@ hr {
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--card-color);
+    
     border: 1px solid var(--primary-color);
-    color: white;
+    color: black;
     display: block;
     border-radius: 0.5rem;
 }
 
 .link-secondary {
-    background-color: var(--primary-color);
+    background-color: var(--card-color);
     border: 1px solid var(--primary-color);
-    color: white;
+    color: black;
     display: block;
     border-radius: 0.5rem;
 }
@@ -89,6 +91,7 @@ hr {
     font-weight: bold;
     font-size: 1.1rem;
 }
+
 
 .navigation .link {
     color: white;
@@ -157,5 +160,26 @@ hr {
 {
     font-weight: bold;
     font-size: large;
+    
+}
 
+.container-blog
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card
+{
+    max-width: 399px;
+    padding: 1rem;
+}
+
+.card-bg-color {
+    background-color:var(--card-color);
+    padding: 1rem;
+}
+.center
+{
+ text-align: center;   
 }

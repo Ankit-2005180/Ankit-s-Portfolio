@@ -4,6 +4,9 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif; 
 */
 
+*{
+    margin: 0;
+}
 /* *** css variables *** */
 
 :root {
@@ -12,12 +15,14 @@ font-family: 'Montserrat Alternates', sans-serif;
     --grey-color: #6B7280;
     --ow-color: #E4E4E7;
     --card-color:#FED7AA;
+    --main-color:#282c34;
 }
 
 /* *** body styling*** */
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
+    /* margin:1rem; */
 }
 
 /* *** container sytling *** */
@@ -82,7 +87,7 @@ hr {
 /* *** navigation bar *** */
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -151,7 +156,7 @@ hr {
 /* *** footer *** */
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
@@ -169,11 +174,19 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+   
+    
 }
 .card
 {
     max-width: 399px;
-    padding: 1rem;
+    padding: 1rem ;
+    box-sizing: border-box;
+    margin: 1rem;
+    border: 3px solid #F97316;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    box-shadow: 3px 3px 4px black ;
 }
 
 .card-bg-color {
@@ -193,7 +206,10 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-body {
-    /* display: block; */
-    margin: 1rem;
+body
+{
+    
+    /* padding:5rem; */
 }
+
+

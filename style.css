@@ -9,6 +9,8 @@ font-family: 'Montserrat Alternates', sans-serif;
 {
     /* --primary-color :#7C3AED ; */
     --primary-color :#F97316 ;
+    --grey-color :#6B7280;
+    --ow-color:#E4E4E7;
 }
 
 /* *** body styling*** */
@@ -91,4 +93,43 @@ hr
 .navigation .link-active
 {
     font-weight: bold ;
+}
+
+/* *** header *** */
+.hero
+{
+    padding: 2rem;
+}
+.hero .hero-image
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+   
+}
+.hero .hero-heading
+{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--grey-color);
+}
+.hero .hero-heading .heading-inverted
+{
+ color: var(--primary-color);
+}
+
+/* *** section *** */
+.section
+{
+    padding: 2rem;
+}
+.section h1
+{
+    text-align: center;
+}
+.ow-color
+{
+    background-color: var(--ow-color);
+    padding: 1rem;
 }

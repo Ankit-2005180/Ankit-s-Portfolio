@@ -16,6 +16,8 @@ font-family: 'Montserrat Alternates', sans-serif;
     --ow-color: #E4E4E7;
     --card-color:#FED7AA;
     --main-color:#282c34;
+    --project-color:#e4e4e75e;
+    --white-color:#ffff;
 }
 
 /* *** body styling*** */
@@ -29,7 +31,7 @@ body {
 
 .container {
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
 }
 
 .center-container {
@@ -97,6 +99,8 @@ hr {
     font-weight: bold;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -115,13 +119,14 @@ hr {
 /* *** header *** */
 
 .hero {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .hero .hero-image {
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
+    padding: 1rem;
 }
 
 .hero .hero-heading {
@@ -144,9 +149,19 @@ hr {
 .section h1 {
     text-align: center;
 }
+.w-color
+{
+    background-color: var(--white-color);
+    padding: 1rem;
+
+}
 
 .ow-color {
     background-color: var(--ow-color);
+    padding: 1rem;
+}
+.ow-color1 {
+    background-color: var(--project-color);
     padding: 1rem;
 }
 .color-highlight
@@ -207,10 +222,9 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-body
+.project-border-radius
 {
-    
-    /* padding:5rem; */
+    border-radius: 2rem;
 }
 
 
